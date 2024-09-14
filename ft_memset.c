@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-#include <stddef.h>
+#include <libft.h>
+
 void *ft_memset(void *s, int c, size_t n)
 {
 	unsigned char *arr = s;

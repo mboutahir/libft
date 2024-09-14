@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <libft.h>
 int atoi(const char *str)
 {
 	int total;
@@ -23,10 +23,4 @@ int atoi(const char *str)
 	if(j == -1)
 		return -total;
 	return total;
-}
-int main()
-{
-	char str[]= "    -123nd";
-	printf("%d", atoi(str));
-	
 }
